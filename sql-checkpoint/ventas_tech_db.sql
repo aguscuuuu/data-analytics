@@ -109,4 +109,34 @@ INSERT INTO ventas          VALUES (7,  5, 1, 1, 1200.00, '2024-03-12');
 INSERT INTO ventas          VALUES (8,  3, 2, 8,   28.00, '2024-03-13');
 INSERT INTO ventas          VALUES (9,  4, 4, 1,  120.00, '2024-03-14');
 INSERT INTO ventas          VALUES (10, 5, 3, 2,  450.00, '2024-03-15');
-INSERT INTO ventas          VALUES (20, 3, 7, 2,
+INSERT INTO ventas          VALUES (20, 3, 7, 2,  890.00, '2024-03-20');
+INSERT INTO ventas          VALUES (21, 1, 6, 1,   95.00, '2024-03-25');
+INSERT INTO ventas          VALUES (22, 4, 5, 2,  130.00, '2024-03-28');
+
+-- Ventas de abril
+INSERT INTO ventas          VALUES (23, 5, 1, 1, 1200.00, '2024-04-03');
+INSERT INTO ventas          VALUES (24, 6, 2, 4,   28.00, '2024-04-15');
+INSERT INTO ventas          VALUES (25, 6, 4, 1,  120.00, '2024-04-18');
+INSERT INTO ventas          VALUES (26, 3, 3, 3,  430.00, '2024-04-22');
+INSERT INTO ventas          VALUES (27, 2, 5, 1,  130.00, '2024-04-29');
+
+-- Ventas de mayo
+INSERT INTO ventas          VALUES (28, 1, 7, 1,  890.00, '2024-05-06');
+INSERT INTO ventas          VALUES (29, 5, 3, 1,  450.00, '2024-05-11');
+INSERT INTO ventas          VALUES (30, 6, 6, 2,   95.00, '2024-05-17');
+INSERT INTO ventas          VALUES (31, 3, 1, 2, 1100.00, '2024-05-24');
+INSERT INTO ventas          VALUES (32, 4, 2, 3,   28.00, '2024-05-30');
+
+-- Ventas de junio
+INSERT INTO ventas          VALUES (33, 5, 4, 2,  120.00, '2024-06-04');
+INSERT INTO ventas          VALUES (34, 2, 3, 1,  450.00, '2024-06-12');
+INSERT INTO ventas          VALUES (35, 1, 5, 2,  130.00, '2024-06-19');
+INSERT INTO ventas          VALUES (36, 6, 7, 1,  890.00, '2024-06-25');
+
+-- Verificar 
+SELECT * FROM regiones    ORDER BY id_region;
+SELECT * FROM categorias  ORDER BY id_categoria;
+SELECT * FROM clientes    ORDER BY id_cliente;
+SELECT * FROM productos   ORDER BY id_producto;
+SELECT * FROM ventas      ORDER BY id_venta;
+
