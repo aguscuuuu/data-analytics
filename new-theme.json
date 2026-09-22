@@ -1,0 +1,9 @@
+{
+  "name": "Tema Archivo",
+  "textClasses": {
+    "label": { "fontFace": "Archivo" },
+    "title": { "fontFace": "Archivo" },
+    "header": { "fontFace": "Archivo" },
+    "callout": { "fontFace": "Archivo" }
+  }
+}
